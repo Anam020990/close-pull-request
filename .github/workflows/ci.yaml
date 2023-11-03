@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths_ignore: ["**.md"]
   pull_request:
     types: [opened, synchronize]
